@@ -1,17 +1,20 @@
 import Image from 'next/image';
+import '../styles/hero.css';
 
 export default function Hero(){
     return(
         <div>
-            <div>
-                <Image src='/images/hero.png' layout="responsive" width={100} height={100} />
+            <div className='h-[300px]  relative' style={{maxWidth:'1200px', margin:'0px 0px 0px auto'}}>
+                <Image src='/images/hero.png' fill alt='hero-image'/>
             </div>
-            <div style={{position:'absolute',top:300}}>
-                <div>
-                    <h2>Lorem Ipsum dolor sit</h2>
-                </div>
-                <div>
-                    <h3>Neque porro quisquam est, qui dolorem ipsum</h3>
+            <div className='site-title-container h-[350px]'>
+                <div className='site-title'>
+                    <div className='title'>
+                        <h3>Lorem Ipsum dolor sit</h3>
+                    </div>
+                    <div className='sub-title'>
+                        <span>Neque porro quisquam est, qui dolorem ipsum</span>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,19 @@
+.site-title-container{
+    position:absolute;
+    top:120px;
+    background: linear-gradient(90deg, #FFFFFF 34.84%, rgba(255, 255, 255, 0) 45.92%);
+    width: 70%;
+}
+.site-title {
+    margin-top: 140px;
+    color: #414141;
+}
+
+.site-title .title{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.site-title .sub-title{
+    font-size: 24px;
+}

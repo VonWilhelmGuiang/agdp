@@ -1,0 +1,30 @@
+
+.footer-content-wrapper{
+    background-color: green;
+    position: absolute;
+    width: 100%;
+    right: 0;
+}
+.footer-content{
+    background-color: pink;
+    position: relative;
+    top: 0px;
+    width: 1400px;
+    margin: auto;
+}
+.footer-content > * {
+    display: inline-block;
+}
+
+
+
+/* footer{ */
+    /* background-blend-mode: multiply;
+    background: linear-gradient(180deg, #00455E 0%, rgba(0, 69, 94, 0) 100%), #0445C7;
+     */
+    /* position: absolute;
+    width: 100%;
+    right: 0;
+
+    background-color: green; */
+/* } */

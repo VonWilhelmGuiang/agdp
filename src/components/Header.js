@@ -1,22 +1,24 @@
 import Image from 'next/image';
+import '../styles/header.css'
+import Link from 'next/link';
 
 export default function Header(){
     return(
         <header>
-            <div className='flex'>
-                <div className='w-1/3'>
-                    <Image src='/images/NLX_Logo_Main_1.png' width={100} height={100}/>
+            <div className='nav-wrapper md:flex md:justify-center'>
+                <div className='logo-container'>
+                    <Image src='/images/NLX_Logo_Main_1.png' width={100} height={100} alt='company logo'/>
                 </div>
-                <div className='w-2/3'>
+                <div className='nav-container'>
                     <nav>
-                        <ul className='flex justify-between'>
-                            <li>Home</li>
-                            <li>Why NLX?</li>
-                            <li>News</li>
-                            <li>Events</li>
-                            <li>Finds A Group</li>
-                            <li>Start A Group</li>
-                            <li>Login</li>
+                        <ul className='flex'>
+                            <li><Link href='#'>Home</Link></li>
+                            <li><Link href='#'>Why NLX</Link></li>
+                            <li><Link href='#'>News</Link></li>
+                            <li><Link href='#'>Events</Link></li>
+                            <li className='group-find'><Link href='#'>Finds A Group</Link></li>
+                            <li className='group-start'><Link href='#'>Start A Group</Link></li>
+                            <li><Link href='#'>Login</Link></li>
                         </ul>
                     </nav>
                 </div>

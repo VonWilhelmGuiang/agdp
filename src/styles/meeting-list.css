@@ -1,0 +1,106 @@
+.meeting-lists{
+    margin:30px 0px 30px 0px;
+}
+
+.meeting-lists .title{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700px;
+}
+
+.meeting-lists .meeting-items-container{
+    overflow-y:hidden;
+}
+
+.meeting-lists .meeting-items-container .meeting-item{
+    display: inline-block;
+    border: 1px solid #D2D2D2;
+    width: 430px;
+    margin: 20px 0px 20px 0px;
+    height: 350px;
+    padding: 32px;
+    border-radius: 5px;
+}
+.meeting-lists .meeting-items-container .meeting-item:nth-child(3n+2){
+    /* background-color: green; indicator only*/
+    margin-left: 64px ;
+    margin-right: 64px ;
+
+}
+.meeting-lists .meeting-items-container .meeting-item > *{
+    display: block;
+    text-align: center;
+}
+
+.meeting-lists .meeting-items-container .meeting-item .meeting-type > *  {
+    display: inline-block;
+}
+.location-type > *{
+    display: inline-block;
+    font-size: 20px;
+}
+.location-icon {
+    margin-right: 5px;
+}
+.location-type svg *{
+    fill:url(#lgrad);
+}
+
+.location-type{
+    background: -webkit-linear-gradient(#3ED2FF, #1839D8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.meeting-title h5{
+    color: #414141;
+    font-size: 23px;
+    margin: 30px;
+}
+
+.meeting-type .type > *{
+    display: block;
+    font-size: 20px;
+    color: #414141;
+}
+
+.meeting-type .type:nth-child(2){
+    margin-left: 50px;
+}
+
+.meeting-type .type svg *{
+    fill: url(#lgrad-meeting-type);
+}
+
+.visit-btn-container{
+    margin-top: 30px;
+}
+
+.visit-btn-container button{
+    background: linear-gradient(180deg, #DFED5A 0%, #47980B 100%);
+    color: #414141;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.load-more-container{
+    position: relative;
+}
+.load-more-container .load-more{
+    background: linear-gradient(0deg, #ffff 34.84%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    top: -200px;
+    width: 100%;
+    height: 200px;
+}
+.load-more button{
+    position: absolute;
+    bottom:0;
+    left: 48%;
+    background: linear-gradient(180deg, #3ED2FF 0%, #1839D8 100%);
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #FFFFFF;
+}

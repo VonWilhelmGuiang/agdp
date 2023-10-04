@@ -1,0 +1,22 @@
+.page-title *{
+    text-align: center;
+    display: block;
+}
+.intro{
+    color: #414141;
+    font-weight: 600;
+    font-size: 24px;
+}
+.page-title .title{
+    color: #58A70F;
+    font-weight: 600;
+    font-size: 48px;
+}
+.page-title .sub-title{
+    color: #414141;
+    font-size: 24px;
+}
+
+.main-content{
+    padding: 40px;
+}
