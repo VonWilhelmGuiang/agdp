@@ -1,30 +1,20 @@
 
-.footer-content-wrapper{
-    background-color: green;
+footer{
+    color: #FFFF;
     position: absolute;
     width: 100%;
     right: 0;
 }
-.footer-content{
-    background-color: pink;
-    position: relative;
-    top: 0px;
+.footer-content-wrapper{
+    background-blend-mode: multiply;
+    background: linear-gradient(180deg, #00455E 0%, rgba(0, 69, 94, 0) 100%), #0445C7;
+    padding: 50px 30px 50px 30px;
+}
+.footer-content,
+.footer-copy-content{
     width: 1400px;
     margin: auto;
 }
-.footer-content > * {
-    display: inline-block;
+.footer-copy-right-wrapper{
+    background: #00144C;
 }
-
-
-
-/* footer{ */
-    /* background-blend-mode: multiply;
-    background: linear-gradient(180deg, #00455E 0%, rgba(0, 69, 94, 0) 100%), #0445C7;
-     */
-    /* position: absolute;
-    width: 100%;
-    right: 0;
-
-    background-color: green; */
-/* } */

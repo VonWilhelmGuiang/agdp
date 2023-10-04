@@ -1,0 +1,35 @@
+.footer-content > * {
+    display: inline-block;
+    height: 200px;
+    vertical-align:top;
+}
+.get-started h4,
+.about h4,
+.contact h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about,
+.contact{
+    margin-left: 13%;
+}
+.contact{
+    margin-right: 13%;
+}
+.contact address{
+    width: 200px;
+}
+
+.company-logo img{
+    margin: auto;
+    margin-bottom: 25px;
+}
+.company-logo button{
+    background: linear-gradient(180deg, #DFED5A 0%, #47980B 100%);
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    width: 280.46px;
+    color: #414141;
+    font-weight: 500;
+}

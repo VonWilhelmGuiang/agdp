@@ -1,0 +1,73 @@
+.meeting-item{
+    display: inline-block;
+    border: 1px solid #D2D2D2;
+    width: 430px;
+    margin: 20px 0px 20px 0px;
+    height: 350px;
+    padding: 32px;
+    border-radius: 5px;
+}
+
+.meeting-item:nth-child(3n+2){
+    /* background-color: green; indicator only*/
+    margin-left: 64px ;
+    margin-right: 64px ;
+
+}
+
+.meeting-item > *{
+    display: block;
+    text-align: center;
+}
+
+.meeting-lists .meeting-items-container .meeting-item .meeting-type > *  {
+    display: inline-block;
+}
+.location-type > *{
+    display: inline-block;
+    font-size: 20px;
+}
+.location-icon {
+    margin-right: 5px;
+}
+.location-type svg *{
+    fill:url(#lgrad);
+}
+
+.location-type{
+    background: -webkit-linear-gradient(#3ED2FF, #1839D8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.meeting-title h5{
+    color: #414141;
+    font-size: 23px;
+    margin: 30px;
+}
+
+.meeting-type .type > *{
+    display: block;
+    font-size: 20px;
+    color: #414141;
+}
+
+.meeting-type .type:nth-child(2){
+    margin-left: 50px;
+}
+
+.meeting-type .type svg *{
+    fill: url(#lgrad-meeting-type);
+}
+
+.visit-btn-container{
+    margin-top: 30px;
+}
+
+.visit-btn-container button{
+    background: linear-gradient(180deg, #DFED5A 0%, #47980B 100%);
+    color: #414141;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+}

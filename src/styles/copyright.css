@@ -1,0 +1,16 @@
+.footer-copy-content{
+    padding: 10px 0px 10px 0px;
+}
+.footer-copy-content > *{
+    display: inline-block;
+}
+.copy-right-container{
+    font-weight: 100;
+}
+.icon-container{
+    float: right;
+}
+.icon-container > *{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
