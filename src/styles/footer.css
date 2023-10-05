@@ -1,0 +1,20 @@
+
+footer{
+    color: #FFFF;
+    position: absolute;
+    width: 100%;
+    right: 0;
+}
+.footer-content-wrapper{
+    background-blend-mode: multiply;
+    background: linear-gradient(180deg, #00455E 0%, rgba(0, 69, 94, 0) 100%), #0445C7;
+    padding: 50px 30px 50px 30px;
+}
+.footer-content,
+.footer-copy-content{
+    max-width: 1400px;
+    margin: auto;
+}
+.footer-copy-right-wrapper{
+    background: #00144C;
+}

@@ -1,0 +1,17 @@
+.nav-wrapper{
+    padding : 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.nav-wrapper > .logo-container{
+    max-width: 400px !important;
+}
+
+@media screen and (max-width: 941px){
+    .nav-wrapper{
+        justify-content: space-evenly;
+    }
+} 
