@@ -36,13 +36,14 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 -------------------------------------------------------------------------
+
 Instructions on how to run the project locally.
-    > Run the commands below after pulling the codes from git.
-        npm install
-        npm run dev
+> Run the commands below after pulling the codes from git.
+Step 1: npm install
+Step 2: npm run dev
 
 Briefly describe your design decisions.
-	I used the provided design from a Figma link as a reference to create the design decisions. I used the Reference Based Design since a layout has been provided.
+> I used the provided design from a Figma link as a reference to create the design decisions. I used the Reference Based Design since a layout has been provided.
 
 Mention any challenges you faced and how you overcame them.
-	I had problems deploying the template. However, I read the errors carefully and fix each one to overcome the challenge and deployed the template.
+> I had problems deploying the template. However, I read the errors carefully and fix each one to overcome the challenge and deployed the template.
