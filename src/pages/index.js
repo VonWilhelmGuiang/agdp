@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import Filter from "@/components/Filter";
 import MeetingList from "@/components/MeetingList";
-import '../styles/Home.css'
+import '../styles/home.css'
 
 export default function home(){
     return(
