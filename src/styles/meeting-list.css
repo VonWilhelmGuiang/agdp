@@ -31,3 +31,17 @@
     font-weight: 500;
     color: #FFFFFF;
 }
+
+.meeting-items-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+@media screen and (max-width: 1369px) {
+    .meeting-items-container{
+        justify-content: space-evenly;
+    }
+    
+}

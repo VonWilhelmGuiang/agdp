@@ -1,8 +1,9 @@
 .footer-copy-content{
     padding: 10px 0px 10px 0px;
-}
-.footer-copy-content > *{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
 }
 .copy-right-container{
     font-weight: 100;

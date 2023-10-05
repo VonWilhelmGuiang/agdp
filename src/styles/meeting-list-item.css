@@ -1,18 +1,10 @@
 .meeting-item{
-    display: inline-block;
     border: 1px solid #D2D2D2;
-    width: 430px;
-    margin: 20px 0px 20px 0px;
-    height: 350px;
-    padding: 32px;
     border-radius: 5px;
-}
-
-.meeting-item:nth-child(3n+2){
-    /* background-color: green; indicator only*/
-    margin-left: 64px ;
-    margin-right: 64px ;
-
+    width: 430px;
+    height: 350px;
+    margin-bottom: 20px;
+    padding: 32px;
 }
 
 .meeting-item > *{
@@ -70,4 +62,10 @@
     padding: 10px 20px 10px 20px;
     border-radius: 8px;
     font-weight: 500;
+}
+
+@media screen and (max-width: 359px) {
+    .meeting-item{
+        height: 400px;
+    }
 }

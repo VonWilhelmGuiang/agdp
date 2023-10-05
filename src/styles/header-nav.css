@@ -1,5 +1,9 @@
 .nav-container ul{
     padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
 }
 .nav-container ul li{
     font-weight: 500;
@@ -19,4 +23,24 @@
     background: linear-gradient(180deg, #DFED5A 0%, #47980B 100%);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+
+@media screen and (max-width: 841px){
+    .nav-container ul{
+        padding: 40px 10px 40px 10px;
+    }
+} 
+
+@media screen and (max-width: 781px) {
+    .nav-container ul li{
+        width: 150px;
+        text-align: center;
+    }
+    .nav-container ul{
+        justify-content: space-evenly;
+    }
+    .nav-container .group-start,
+    .nav-container .group-find{
+        border-radius: 8px;
+    }
 }

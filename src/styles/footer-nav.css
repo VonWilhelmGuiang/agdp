@@ -1,21 +1,18 @@
-.footer-content > * {
-    display: inline-block;
-    height: 200px;
-    vertical-align:top;
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
 }
+.footer-content > * {
+    height: 200px;
+    width: 280px;
+}
+
 .get-started h4,
 .about h4,
 .contact h4{
     font-size: 24px;
     font-weight: 700;
-}
-
-.about,
-.contact{
-    margin-left: 13%;
-}
-.contact{
-    margin-right: 13%;
 }
 .contact address{
     width: 200px;
@@ -32,4 +29,18 @@
     width: 280.46px;
     color: #414141;
     font-weight: 500;
+}
+@media screen and (max-width: 1179px) {
+    .footer-content{
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 619px) {
+    .footer-content{
+        text-align: center;
+    }
+    .contact address{
+        width: 100%;
+    }
 }

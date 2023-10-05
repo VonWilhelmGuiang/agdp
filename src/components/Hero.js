@@ -4,10 +4,10 @@ import '../styles/hero.css';
 export default function Hero(){
     return(
         <div>
-            <div className='h-[300px]  relative' style={{maxWidth:'1200px', margin:'0px 0px 0px auto'}}>
+            <div className='hero-image-container'>
                 <Image src='/images/hero.png' fill alt='hero-image'/>
             </div>
-            <div className='site-title-container h-[350px]'>
+            <div className='site-title-container'>
                 <div className='site-title'>
                     <div className='title'>
                         <h3>Lorem Ipsum dolor sit</h3>

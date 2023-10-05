@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import '../styles/nav.css'
+import '../styles/header-nav.css'
 
 export default function HeaderNav(){
     return(
         <div className='nav-container'>
             <nav>
-                <ul className='flex'>
+                <ul>
                     <li><Link href='#'>Home</Link></li>
                     <li><Link href='#'>Why NLX</Link></li>
                     <li><Link href='#'>News</Link></li>
