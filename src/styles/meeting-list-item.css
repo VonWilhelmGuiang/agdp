@@ -64,8 +64,23 @@
     font-weight: 500;
 }
 
-@media screen and (max-width: 359px) {
+@media screen and (max-width: 500px) {
     .meeting-item{
         height: 400px;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .meeting-item{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 336px) {
+    .meeting-item{
+        padding: 20px;
+    }
+    .meeting-type .type:nth-child(2){
+        margin-left: 10px;
     }
 }

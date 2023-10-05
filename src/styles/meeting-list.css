@@ -24,7 +24,10 @@
 .load-more button{
     position: absolute;
     bottom:0;
-    left: 48%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
     background: linear-gradient(180deg, #3ED2FF 0%, #1839D8 100%);
     padding: 10px 20px 10px 20px;
     border-radius: 8px;
