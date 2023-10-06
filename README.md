@@ -39,11 +39,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Instructions on how to run the project locally.
 > Run the commands below after pulling the codes from git.
-Step 1: npm install
-Step 2: npm run dev
+> Step 1: npm install
+> Step 2: npm run dev
 
 Briefly describe your design decisions.
 > I used the provided design from a Figma link as a reference to create the design decisions. I used the Reference Based Design since a layout has been provided.
 
 Mention any challenges you faced and how you overcame them.
 > I had problems deploying the template. However, I read the errors carefully and fix each one to overcome the challenge and deployed the template.
+> I also find it challenging when creating the gradient background color for the icons, because setting the background color of icons into gradient is not doable using CSS only. Font Awesome will create an inline SVG and the -webkit-background-clip CSS Property no longer works. As a workaround, I created an SVG with a linear gradient from (https://angrytools.com/gradient/), then I used the fill CSS Property with a value of the ID of the SVG I created.
